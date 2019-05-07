@@ -102,3 +102,6 @@ a{
 #smallest-text:hover{
     text-decoration: underline;
 }
+.images-part{
+    display: flex;
+}
