@@ -105,3 +105,20 @@ a{
 .images-part{
     display: flex;
 }
+
+footer{
+    margin: 0 auto;
+    text-align: left;
+    font-size: 12px;
+    width: 80%;
+    padding-top: 15px;
+    line-height: 1.6;
+}
+footer a{
+    padding-right: 15px;
+    color: rgb(47, 136, 204);
+}
+
+footer a:nth-last-child(2){
+    padding-left: 20px;
+}
