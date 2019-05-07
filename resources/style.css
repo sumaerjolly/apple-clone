@@ -19,11 +19,21 @@ a{
 
 }
 
+.full-layout{
+    height: 520px;
+    background: url("../resources/images/main-image.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    padding-top: 65px;
+
+
+}
+
 .nav-bar{
     width: 70%;
     margin: 0 auto;
     background: linear-gradient(#999999, #676767 50%, #808080);
-    margin-top: 100px;
 
 }
 
@@ -55,7 +65,7 @@ a{
     height: 20px;
     border-radius: 10px;
     background: linear-gradient(#999999, #676767 50%, #808080);
-    background: transparent url("https://img.icons8.com/material-rounded/20/000000/google-web-search.png") no-repeat;
+    background: transparent url("../resources/images/search-icon.png") no-repeat;
     background-size: 15px;
     background-position: 5px 50%;
     border: 1px solid rgba(0, 0, 0, 0.3);
